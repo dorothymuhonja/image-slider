@@ -1,0 +1,55 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('img/background.jpg')center/cover no-repeat;
+
+}
+
+.images {
+    background-color: yellow;
+    flex: 0 0 80%;
+    min-height: 70vh;
+    background: url('img/bcg_0.jpg')center/cover no-repeat;
+    border-radius: 15px;
+    box-shadow: 5px 10px black;
+    position: relative;
+}
+
+.btn {
+    display: inline-block;
+    background: white;
+    color: black;
+    border: 3px solid rgb(37, 36, 36);
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 10%;
+    box-shadow: 2px 5px rgb(41, 38, 38);
+    outline: none;
+
+}
+
+.prevBtn {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%,-50%);
+}
+
+.nextBtn {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(50%, -50%);
+}
+
+.btn:hover {
+    background: rgb(17, 114, 25);
+    color: white;
+}
+
+.btn:active {
+    background: grey;
+    color: white;
+}
